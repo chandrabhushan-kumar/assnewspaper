@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+}
+.timesofindia{
+    font-size: 70px;
+    font-weight: bold;
+    color: #000;
+    font-style: italic;
+    padding: 20px;
+    
+}
+
+
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-left{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+.title-left > p{
+    margin: 0;
+    text-align: center;
+}
+
+.title-center{
+    width: 1200px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.title-right{
+    margin-top: 20px;
+    width: 300px;
+}
+.title-right > h4{
+    margin:0;
+    text-align: center;
+    margin-top: 10px;
+}
+.title-right > p{
+    margin: 0;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.date-para{
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.main-head{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+}
+
+.short-line{
+    width: 800px;
+}
+
+.sub-head{
+    text-align: center;
+    font-size: 30px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.left-container{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-img-1 > h5{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.left-container h4{
+    text-align: center;
+}
+.left-content{
+    display: flex;
+}  
+
+.left-content-1{
+    width: 200px;
+    margin-right: 10px;
+}
+
+.left-content-1 > h3, .left-content-1 > h5{
+    text-align: center;
+}
+
+.left-content-1 > hr{
+    width: 80px;
+}
+
+.left-content-1 > p{
+    text-align: left;
+}
+
+.left-content-title-1{
+    text-align: center;
+}
+.left-content-2{
+    width: 780px;
+    margin: 10px;
+}
+
+.left-content-article-1{
+    display: flex;
+}
+
+.left-content-title-2{
+    text-align: center;
+}
+
+.left-content-article-2{
+    display: flex;
+}
+
+.left-content-article-2 h4{
+    text-align: center;
+}
+.left-content-article-1-col-1, .left-content-article-1-col-2, .left-content-article-1-col-3{
+    width: 250px;
+    text-align: left;
+    margin: 2px;
+}
+
+.left-content-article-2-col-1, .left-content-article-2-col-2, .left-content-article-2-col-3{
+    width: 250px;
+    text-align: left;
+    margin: 2px;
+}
+
+.left-content-article-2-col-1, .left-content-article-2-col-2, .left-content-article-2-col-3 > p{
+    text-align: left;
+}
+
+.short-line1{
+    width: 150px;
+}
+
+.right-container{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.right-title-1 > h3{
+    text-align: center;
+}
+
+.right-article-1{
+    display: flex;
+}
+
+.right-article-1-col-1, .right-article-1-col-2{
+    width: 215px;
+    text-align: left;
+    margin: 2px;
+}
+
+.right-article-1-col-2 > img{
+    margin: 0;
+    margin-top: 10px;
+}
+.right-article-1-col-2 > h6{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.right-title-2 > h3{
+    text-align: center;
+}
+
+.right-article-2{
+    display: flex;
+}
+
+.right-article-2-col-1, .right-article-2-col-2{
+    width: 215px;
+    text-align: left;
+    margin: 2px;
+}
+
+.right-title-3 > h3{
+    text-align: center;
+}
+
+.right-article-3{
+    display: flex;
+}
+
+.right-article-3-col-1, .right-article-3-col-2{
+    width: 215px;
+    text-align: left;
+    margin: 2px;
+}
